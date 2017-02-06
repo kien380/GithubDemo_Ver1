@@ -6,7 +6,12 @@
     <StackLayout>
         <Label Text="Hello Page 3"/>
 
-        <Button Text="Back"/>
+        <Button Text="Back"
+                Clicked="BtnMainPage_Clicked"/>
+
+        <Button Text="Page 2"
+                Clicked="BtnPage2_Clicked"/>
+
     </StackLayout>
     
 </ContentPage>
