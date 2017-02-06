@@ -15,6 +15,16 @@ namespace App1
             InitializeComponent();
         }
 
+        private void Button_Clicked_Function1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_Function2(object sender, EventArgs e)
+        {
+
+        }
+
         private async void Button_Clicked_Function3(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Page1());
