@@ -19,7 +19,7 @@ namespace App1
         {
             InitializeComponent();
 
-            lblName.Text = "Hello " + strName;
+            lblName.Text += strName;
         }
 
         private async void BtnSignOut_Clicked(object sender, EventArgs e)

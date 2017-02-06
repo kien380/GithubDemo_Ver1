@@ -12,6 +12,7 @@
                HorizontalOptions="Center"/>
 
         <Label x:Name="lblName"
+               Text="Hello "
                FontSize="Large"
                VerticalOptions="Center"
                HorizontalOptions="Center"/>
