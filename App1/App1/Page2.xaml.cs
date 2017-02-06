@@ -14,5 +14,17 @@ namespace App1
         {
             InitializeComponent();
         }
+
+        public Page2(string strName)
+        {
+            InitializeComponent();
+
+            lblName.Text = "Hello " + strName;
+        }
+
+        private async void BtnSignOut_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
     }
 }
