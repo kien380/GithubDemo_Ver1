@@ -14,5 +14,10 @@ namespace App1
         {
             InitializeComponent();
         }
+
+        public Page2(string strName)
+        {
+            InitializeComponent();
+        }
     }
 }
