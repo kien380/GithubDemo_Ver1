@@ -2,8 +2,35 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App1.Page1">
-    <Label Text="Page 1"
-           FontSize="Large"
-           VerticalOptions="Center"
-           HorizontalOptions="Center"/>
+
+    <StackLayout>
+        <Label Text="Page 1"
+               FontSize="Large"
+               HorizontalOptions="Center"/>
+
+        <Label Text="LOGIN"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="Blue"
+               Margin="0,20,0,0"/>
+
+        <Entry x:Name="_etUsername"
+               VerticalOptions="EndAndExpand"
+               HorizontalOptions="Fill"
+               Margin="30,0,30,0"
+               Placeholder="Username"
+               />
+
+        <Entry Placeholder="Password"
+               IsPassword="True"
+               VerticalOptions="StartAndExpand"
+               HorizontalOptions="Fill"
+               Margin="30,0,30,0"/>
+
+        <Button Text="OK"
+                BackgroundColor="Blue"
+                TextColor="White"
+                Clicked="Button_Clicked_OK"/>
+    </StackLayout>
 </ContentPage>
