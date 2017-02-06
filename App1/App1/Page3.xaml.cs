@@ -14,5 +14,10 @@ namespace App1
         {
             InitializeComponent();
         }
+
+        private async void Button_Clicked_Page4(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page4());
+        }
     }
 }
