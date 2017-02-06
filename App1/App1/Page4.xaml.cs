@@ -14,5 +14,15 @@ namespace App1
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked_Function1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_Function2(object sender, EventArgs e)
+        {
+
+        }
     }
 }
