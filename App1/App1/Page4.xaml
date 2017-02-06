@@ -4,7 +4,18 @@
              x:Class="App1.Page4">
 
     <StackLayout>
-        <Label Text="Test Page 4"/>
+        <Label Text="Test Page 4"
+               HorizontalOptions="Center"/>
+
+        <Button x:Name="_button3" 
+                Text="Button 3"
+                HorizontalOptions="Center"/>
+
+        <Button x:Name="_button4" 
+                Text="Button 4"
+                HorizontalOptions="Center"
+                VerticalOptions="StartAndExpand"/>
+
     </StackLayout>
     
 </ContentPage>
