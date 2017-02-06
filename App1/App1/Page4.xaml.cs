@@ -39,11 +39,6 @@ namespace App1
             _IsButton3Green = !_IsButton3Green;
         }
 
-        private void Button_Clicked_Function3(object sender, EventArgs e)
-        {
-
-        }
-
         private void Button_Clicked_Function2(object sender, EventArgs e)
         {
             // If _button4 is now Blue
@@ -63,9 +58,15 @@ namespace App1
             _IsButton4Blue = !_IsButton4Blue;
         }
 
+        private async void Button_Clicked_Function3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page1());
+        }
+
         private void Button_Clicked_Function4(object sender, EventArgs e)
         {
-
+            _button3.BackgroundColor = Color.Black;
+            _button3.TextColor = Color.White;
         }
     }
 }
