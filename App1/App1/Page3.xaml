@@ -11,6 +11,9 @@
 
         <Button Text="Page 2"
                 Clicked="BtnPage2_Clicked"/>
+        
+        <Button Text="Page 4"
+                Clicked="Button_Clicked_Page4"/>
 
     </StackLayout>
     
