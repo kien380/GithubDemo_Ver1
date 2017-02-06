@@ -4,31 +4,31 @@
              x:Class="App1.Page4">
 
     <StackLayout>
-<<<<<<< HEAD
+        
         <Label Text="Test Page 4"/>
+        
         <Button x:Name="_button1"
                 Text="Button 1"
                 VerticalOptions="EndAndExpand"
                 HorizontalOptions="Center"
                 Clicked="Button_Clicked_Function1"/>
+        
         <Button x:Name="_button2"
                 Text="Button 2"
                 HorizontalOptions="Center"
                 Clicked="Button_Clicked_Function2"/>
-=======
-        <Label Text="Test Page 4"
-               HorizontalOptions="Center"/>
-
+        
         <Button x:Name="_button3" 
                 Text="Button 3"
-                HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_Function1"/>
 
         <Button x:Name="_button4" 
                 Text="Button 4"
                 HorizontalOptions="Center"
-                VerticalOptions="StartAndExpand"/>
+                VerticalOptions="StartAndExpand"
+                Clicked="Button_Clicked_Function2"/>
 
->>>>>>> f3c62ca94d4affd827a4065b6331fc625ee06dee
     </StackLayout>
     
 </ContentPage>

@@ -15,22 +15,25 @@ namespace App1
             InitializeComponent();
         }
 
-<<<<<<< HEAD
         private void Button_Clicked_Function1(object sender, EventArgs e)
-=======
-        private void Button_Clicked_Function3(object sender, EventArgs e)
->>>>>>> f3c62ca94d4affd827a4065b6331fc625ee06dee
         {
 
         }
 
-<<<<<<< HEAD
         private void Button_Clicked_Function2(object sender, EventArgs e)
-=======
-        private void Button_Clicked_Function4(object sender, EventArgs e)
->>>>>>> f3c62ca94d4affd827a4065b6331fc625ee06dee
         {
 
+        }
+
+        private async void Button_Clicked_Function3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page1());
+        }
+
+        private void Button_Clicked_Function4(object sender, EventArgs e)
+        {
+            _button3.BackgroundColor = Color.Black;
+            _button3.TextColor = Color.White;
         }
     }
 }
