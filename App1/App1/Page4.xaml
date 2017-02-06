@@ -5,6 +5,15 @@
 
     <StackLayout>
         <Label Text="Test Page 4"/>
+        <Button x:Name="button1"
+                Text="Button 1"
+                VerticalOptions="EndAndExpand"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_Function1"/>
+        <Button x:Name="button2"
+                Text="Button 2"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_Function2"/>
     </StackLayout>
     
 </ContentPage>
